@@ -1,20 +1,25 @@
-//que6
-
 #include<iostream>  
 using namespace std;
 int main(){
-    float a,b,c;
-    cout<<"Enter the value of a,b,c:";
-    cin>>a>>b>>c;
-    
-    if (a > b && a > c)
-        cout << "Player 1 is ahead";
-    else if (b > a && b > c)
-        cout << "Player 2 is ahead";
-    else if (c > a && c > b)
-        cout << "Player 3 is ahead";
-    else
-        cout << "It's a tie";
+    float netsalary;
+    float bonus;
+    float result;
+    int n;
+    int i;
+     cout<< "Enter the no of employes:";
+     cin>>n;
+
+     for (i=1;i<=1;i++){
+     cout<<"\n enter the netsalary of the employes:"<<i<<":";
+     cin>>netsalary;
+     
+     bonus=netsalary*0.12;
+     result=netsalary+bonus;}
+
+     cout<<"\n bonus"<<bonus;
+     cout<<"\n result"<<result;
+
 
     return 0;
-}
+     }
+
