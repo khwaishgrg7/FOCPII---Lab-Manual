@@ -22,7 +22,6 @@ cout<<"Enter Roll No: ";
 
 cin>>rollNo;
 
-
 cin.ignore(); 
 
 cout<<"Enter Name: ";
